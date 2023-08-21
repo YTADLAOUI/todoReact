@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import { TodoWarapper } from './components/TodoWrapper';
 
 function App() {
   return (
     <div className="App">
-     
+     <TodoWarapper/>
     </div>
   );
 }
